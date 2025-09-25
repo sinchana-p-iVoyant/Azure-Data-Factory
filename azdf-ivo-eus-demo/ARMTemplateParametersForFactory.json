@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azdf-ivo-eus-demo"
+		},
+		"Source DataLake_accountKey": {
+			"value": ""
+		},
+		"Source BlobStorage_connectionString": {
+			"value": ""
+		},
+		"Source DataLake_properties_typeProperties_url": {
+			"value": "https://storageadf3.dfs.core.windows.net/"
+		}
+	}
+}
