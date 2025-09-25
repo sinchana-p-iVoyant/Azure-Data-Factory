@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Destination_LS",
+						"referenceName": "Files_Destination",
 						"type": "DatasetReference"
 					}
 				]
