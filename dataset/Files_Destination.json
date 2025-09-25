@@ -1,5 +1,5 @@
 {
-	"name": "Destination_LS",
+	"name": "Files_Destination",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Destination_LS",
