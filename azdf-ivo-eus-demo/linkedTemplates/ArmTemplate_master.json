@@ -7,15 +7,43 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "azdf-ivo-eus-demo"
 		},
-		"Source DataLake_accountKey": {
+		"AzureBlobStorage_LS2_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'Source DataLake'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage_LS2'"
+		},
+		"AzureBlobStorage_LinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage_LinkedService'"
+		},
+		"Destination DataLake_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Destination DataLake'"
+		},
+		"Destination_LS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Destination_LS'"
 		},
 		"Source BlobStorage_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Source BlobStorage'"
 		},
+		"Source DataLake_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'Source DataLake'"
+		},
+		"Source_LS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Source_LS'"
+		},
+		"sourceDataLake2_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'sourceDataLake2'"
+		},
 		"Source DataLake_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://storageadf3.dfs.core.windows.net/"
+		},
+		"sourceDataLake2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://storageadf3.dfs.core.windows.net/"
 		},
@@ -46,14 +74,35 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"Source DataLake_accountKey": {
-						"value": "[parameters('Source DataLake_accountKey')]"
+					"AzureBlobStorage_LS2_connectionString": {
+						"value": "[parameters('AzureBlobStorage_LS2_connectionString')]"
+					},
+					"AzureBlobStorage_LinkedService_connectionString": {
+						"value": "[parameters('AzureBlobStorage_LinkedService_connectionString')]"
+					},
+					"Destination DataLake_connectionString": {
+						"value": "[parameters('Destination DataLake_connectionString')]"
+					},
+					"Destination_LS_connectionString": {
+						"value": "[parameters('Destination_LS_connectionString')]"
 					},
 					"Source BlobStorage_connectionString": {
 						"value": "[parameters('Source BlobStorage_connectionString')]"
 					},
+					"Source DataLake_accountKey": {
+						"value": "[parameters('Source DataLake_accountKey')]"
+					},
+					"Source_LS_connectionString": {
+						"value": "[parameters('Source_LS_connectionString')]"
+					},
+					"sourceDataLake2_accountKey": {
+						"value": "[parameters('sourceDataLake2_accountKey')]"
+					},
 					"Source DataLake_properties_typeProperties_url": {
 						"value": "[parameters('Source DataLake_properties_typeProperties_url')]"
+					},
+					"sourceDataLake2_properties_typeProperties_url": {
+						"value": "[parameters('sourceDataLake2_properties_typeProperties_url')]"
 					}
 				}
 			},

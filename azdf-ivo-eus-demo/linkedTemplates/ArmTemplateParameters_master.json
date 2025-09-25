@@ -5,13 +5,34 @@
 		"factoryName": {
 			"value": "azdf-ivo-eus-demo"
 		},
-		"Source DataLake_accountKey": {
+		"AzureBlobStorage_LS2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage_LinkedService_connectionString": {
+			"value": ""
+		},
+		"Destination DataLake_connectionString": {
+			"value": ""
+		},
+		"Destination_LS_connectionString": {
 			"value": ""
 		},
 		"Source BlobStorage_connectionString": {
 			"value": ""
 		},
+		"Source DataLake_accountKey": {
+			"value": ""
+		},
+		"Source_LS_connectionString": {
+			"value": ""
+		},
+		"sourceDataLake2_accountKey": {
+			"value": ""
+		},
 		"Source DataLake_properties_typeProperties_url": {
+			"value": "https://storageadf3.dfs.core.windows.net/"
+		},
+		"sourceDataLake2_properties_typeProperties_url": {
 			"value": "https://storageadf3.dfs.core.windows.net/"
 		},
 		"containerUri": {
