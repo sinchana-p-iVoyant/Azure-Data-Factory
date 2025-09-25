@@ -29,6 +29,12 @@
 		"sourceDataLake2_accountKey": {
 			"value": ""
 		},
+		"Files_Source_connectionString": {
+			"value": ""
+		},
+		"Files_Destination_connectionString": {
+			"value": ""
+		},
 		"Source DataLake_properties_typeProperties_url": {
 			"value": "https://storageadf3.dfs.core.windows.net/"
 		},
